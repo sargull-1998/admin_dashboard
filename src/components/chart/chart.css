@@ -1,0 +1,14 @@
+.chartcontainer {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+}
+.chartTitle {
+  margin-bottom: 20px;
+}
+.homeWidgets {
+  display: flex;
+  margin: 20px;
+}

@@ -1,0 +1,114 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.productTopContainer {
+  display: flex;
+}
+.productTopLeftt {
+  flex: 1;
+}
+.productTopRightt {
+  flex: 1;
+}
+.productTopRightt {
+  padding: 20px;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+}
+.productImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+.productName {
+  font-weight: 600;
+}
+.productInfoButtom {
+  margin-top: 10px;
+}
+.productItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.productValue {
+  font-weight: 300;
+}
+.productButtomContainer {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(207, 190, 190, 0.75);
+}
+.productButtomForm {
+  display: flex;
+  justify-content: space-between;
+}
+.formLeftContianer {
+  display: flex;
+  flex-direction: column;
+}
+.formLeftContianer > label {
+  margin-bottom: 10px;
+  color: grey;
+}
+.formLeftContianer > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+}
+.formLeftContianer > select {
+  margin-bottom: 10px;
+}
+.formRightContianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productImgUpload {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.productUpload {
+  display: flex;
+  align-items: center;
+}
+.productButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(5, 5, 202);
+}
